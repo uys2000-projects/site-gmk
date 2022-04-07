@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      @font-face {
+        font-family: ourFont;
+        src: url("./font/CooperHewitt-Heavy.otf");
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        transition: 0.5s;
+        color: #4fcbc3 ;
+        font-family: ourFont;
+      }
+
+      .body--light {
+        --q-primary: #0b143a;
+        --q-secondary: #0da192;
+        --q-accent: #9c27b0;
+        --q-positive: #21ba45;
+        --q-negative: #c10015;
+        --q-info: #31ccec;
+        --q-warning: #f2c037;
+      }
+      .body--dark {
+        --q-primary: #0b143a;
+        --q-secondary: #474747;
+        --q-accent: #9c27b0;
+        --q-positive: #005714;
+        --q-negative: #6b000c;
+        --q-info: #21899e;
+        --q-warning: #96761d;
+      }
+      .body--light {
+        --red: red;
+        --blue: blue;
+        --green: green;
+      }
+      .body--dark {
+        --red: darkred;
+        --blue: darkblue;
+        --green: darkgreen;
+      }
+      .body--light .drawer {
+        background: #fff;
+      }
+      .body--dark .drawer {
+        background: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
