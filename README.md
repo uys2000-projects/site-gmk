@@ -1,4 +1,15 @@
-# gmkwebapp
+# Istinye Grişimci Mühendisler Club's website project
+
+```
+Site url : https://gmkwebapp.web.app/
+Admin Page url : https://gmkwebapp.web.app/admin.html
+```
+```
+user: gmk@gmk.com
+pass: 123456
+```
+
+
 
 ## Project setup
 ```
@@ -14,11 +25,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
